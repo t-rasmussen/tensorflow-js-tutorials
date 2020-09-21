@@ -1,0 +1,33 @@
+{
+  "name": "tensor-flow-js-tutorials",
+  "version": "1.0.0",
+  "description": "tensor-flow.js tutorials",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wp-build": "webpack",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "neural",
+    "networks",
+    "tensorflow"
+  ],
+  "author": "trolle",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.2.5",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "p5": "^0.8.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "three": "^0.107.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
